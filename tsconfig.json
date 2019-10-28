@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "outDir": "./build",
+        "diagnostics": true,
+        "removeComments": true,
+        "noUnusedParameters": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

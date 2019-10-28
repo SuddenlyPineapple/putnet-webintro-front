@@ -1,0 +1,20 @@
+{
+  "name": "webintro-front",
+  "version": "1.0.0",
+  "description": "PUT.NET WebIntro",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wojciech Kasperski",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
