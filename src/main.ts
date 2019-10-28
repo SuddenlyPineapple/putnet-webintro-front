@@ -123,7 +123,7 @@ editButton.addEventListener('click', () => {
     render();
   },
   {
-    id: (editId as HTMLInputElement).value;
+    id: (editId as HTMLInputElement).value,
     name: (editName as HTMLInputElement).value,
     year: (editYear as HTMLInputElement).value
   }
